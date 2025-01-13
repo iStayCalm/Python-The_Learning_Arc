@@ -17,7 +17,7 @@
 	// }
 
 	"Print f-string Shortcut": {
-	  "prefix": "prt",
+	  "prefix": "prtf",
 	  "body": ["print(f\"$1\")"],
 	  "description": "Shortcut for print(f\" cursor here \")"
 	},
@@ -26,6 +26,12 @@
 	  "prefix": "prtn",
 	  "body": ["print(\"\\n\")"],
 	  "description": "shortcut for new line"
+	},
+
+	"Print Shortcut": {
+	  "prefix": "prt",
+	  "body": ["print(\"$1\")"],
+	  "description": "Shortcut for print"
 	}
 
 }
