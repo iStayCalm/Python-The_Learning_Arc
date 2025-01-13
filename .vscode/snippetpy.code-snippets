@@ -20,5 +20,12 @@
 	  "prefix": "prt",
 	  "body": ["print(f\"$1\")"],
 	  "description": "Shortcut for print(f\" cursor here \")"
+	},
+
+	"Print nextline Shortcut": {
+	  "prefix": "prtn",
+	  "body": ["print(\"\\n\")"],
+	  "description": "shortcut for new line"
 	}
+
 }
