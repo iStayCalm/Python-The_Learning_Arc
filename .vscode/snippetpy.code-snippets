@@ -30,7 +30,7 @@
 
 	"Print Shortcut": {
 	  "prefix": "prt",
-	  "body": ["print(\"$1\")"],
+	  "body": ["print(\"\\n$1\")"],
 	  "description": "Shortcut for print"
 	}
 

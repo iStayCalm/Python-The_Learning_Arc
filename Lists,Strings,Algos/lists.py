@@ -18,3 +18,5 @@ l3 = [1,"saad",6.9,True]
 print(f"list 1 integers       : {l1}")
 print(f"list 2 strings        : {l2}")
 print(f"list 3 mixed elements : {l3}")
+
+print("\n")
