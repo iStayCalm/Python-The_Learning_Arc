@@ -46,9 +46,9 @@ print(rep_tup)
 # Slicing and reverse printing:
 print("\nSlicing and reverse printing:")
 t = [634, 465, 343256, 5323, 65]
-print(t[1:])  # prints from index 1
-print(t[::-1])  # prints in reverse
-print(t[2:4])  # from index 2 to 3
+print(t[1:])        # prints from index 1
+print(t[::-1])      # prints in reverse
+print(t[2:4])       # from index 2 to 3
 
 # Can delete tuple with del(*tuple_name*)
 del(tup)
