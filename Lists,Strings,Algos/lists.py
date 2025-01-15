@@ -20,3 +20,10 @@ print(f"list 2 strings        : {l2}")
 print(f"list 3 mixed elements : {l3}")
 
 print("\n")
+
+#list can be created with tuple
+
+atup = 123,4235,234,4,313
+
+alist = list(atup)
+print(alist)
