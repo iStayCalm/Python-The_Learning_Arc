@@ -40,3 +40,30 @@ print("\n")
 base2["age"] = 19
 base2["name"] = "CalmZ"
 print(base2)
+print("\n")
+
+#del,pop,clear,popitem
+
+del base2["age"]
+print(f"Updated base2 after deleting age : {base2}")
+
+poppop = base2.pop("roll")
+print(f"Popped Roll no. : {base2}")
+print(poppop)
+print("\n")
+
+#pop the last item in the dictionary
+
+a1 = base2.popitem()
+print(f"Popped item : {a1}")
+print(f"Base 2 : {base2}")
+print("\n")
+
+a2,b2 = base2.popitem()
+print(f"Popped item : {a2},{b2}")
+print(f"Base 2 : {base2}")
+
+base2.update({"age" : 19})
+base2.update({"roll" : poppop})
+base2.update({a2 : b2})
+print(f"After updating Base 2 : {base2}")
