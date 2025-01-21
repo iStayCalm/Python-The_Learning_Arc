@@ -5,26 +5,26 @@ print("\n")
 
 #other way
 base2 = dict(
-    name = "saad",
-    roll = 177,
-    stdy = "sem 2",
-    cgpa = 9.4
+	name = "saad",
+	roll = 177,
+	stdy = "sem 2",
+	cgpa = 9.4
 )
 
 print("Print Keys : ")
 for i in base2:
-    print(i, end=" ")
+	print(i, end=" ")
 print("\n")
 
 print("Print values : ")
 for i in base2.values():
-    
-    print(i, end=" ")
+
+	print(i, end=" ")
 print("\n")
-  
-print("Print Both :") 
+
+print("Print Both :")
 for i in base2:
-    print(i ,":", base2.values)
+	print(i ,":", base2.values)
 print("\n")
 
 #accesing dict. with keys
@@ -68,3 +68,8 @@ base2.update({"roll" : poppop})
 base2.update({a2 : b2})
 print(f"After updating Base 2 : {base2}")
 print("\n")
+
+#Clearing Dictionary
+
+base2.clear()
+print(base2)
